@@ -2,13 +2,8 @@
 const config = {
   plugins: {
     tailwindcss: {},
+    autoprefixer: {}, // ✅ أضف هذا السطر
   },
 };
 
 export default config;
-module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
