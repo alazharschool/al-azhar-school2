@@ -36,8 +36,8 @@ if (-not (Test-Path "node_modules")) {
 
 Write-Host ""
 Write-Host "بدء تشغيل السيرفر..." -ForegroundColor Green
-Write-Host "السيرفر سيكون متاحًا على: http://localhost:3000" -ForegroundColor Cyan
-Write-Host "للوقف، اضغط Ctrl+C" -ForegroundColor Yellow
+Write-Host "السيرفر سيكون متاحاً على: http://localhost:3000" -ForegroundColor Cyan
+Write-Host "للوقف اضغط Ctrl+C" -ForegroundColor Yellow
 Write-Host ""
 
 # تشغيل السيرفر
